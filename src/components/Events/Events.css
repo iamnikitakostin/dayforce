@@ -1,5 +1,6 @@
 .events {
     flex: 1;
+    width: unset !important;
 }
 
 .reviewForms__body {

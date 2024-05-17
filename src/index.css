@@ -45,3 +45,12 @@ a {
     transform: translateY(-20%);
   }
 }
+
+@keyframes fadeOutAnimation {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

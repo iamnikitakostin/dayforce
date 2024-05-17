@@ -7,15 +7,15 @@ import MyTeam from '../MyTeam/MyTeam';
 import Events from '../Events/Events';
 import TeamOutlook from '../TeamOutlook/TeamOutlook';
 
-function Dashboard() {
+function Dashboard({setLoading}) {
   return (
-    <div className='dashboard'>
+    <div className='dashboard' onLoad={() => setLoading(false)}>
         <Profile />
         <ReviewForms />
         <Reminders />
         <MyTeam />
-        <Events />
         <TeamOutlook />
+        <Events />
     </div>
   )
 }
