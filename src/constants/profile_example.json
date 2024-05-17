@@ -1,0 +1,104 @@
+{
+    "profile": {
+        "id": "4121",
+        "name": "Layla Watson",
+        "photo": "1.jpeg",
+        "email": "lwatson@dayforce.com",
+        "position": "IT Administrator",
+        "team": {
+            "manager": {
+                "id": "1930",
+                "name": "Steve Copperson",
+                "photo": ""
+            },
+            "reports": [
+                {
+                    "id": "9310",
+                    "name": "Ian Jefferson",
+                    "photo": ""
+                },
+                {
+                    "id": "5873",
+                    "name": "Liana Smith",
+                    "photo": ""
+                }
+            ]
+        },
+        "reminders": [
+            {
+                "id": 1,
+                "title": "Check In",
+                "details": "Abdul Mohammad",
+                "due": "05/20/2024"
+            },
+            {
+                "id": 2,
+                "title": "Check In",
+                "details": "Lia Moralez",
+                "due": "05/22/2024"
+            }
+        ],
+        "forms": [
+            {
+                "id": 23,
+                "title": "Self Evaluation Form",
+                "requestor": "Abdul Muhammad",
+                "due": "05/20/2024",
+                "link": "https://example.com",
+                "done": false
+            },
+            {
+                "id": 24,
+                "title": "Self Evaluation Form",
+                "requestor": "Jenny Manson",
+                "due": "06/01/2024",
+                "link": "https://example.com",
+                "done": false
+            },
+            {
+                "id": 25,
+                "title": "Self Evaluation Form",
+                "requestor": "Giancarlo Johnson",
+                "due": "06/15/2024",
+                "link": "https://example.com",
+                "done": true
+            }
+        ],
+        "events": [
+            {
+                "id": 12,
+                "title": "Meeting - Abdul Muhammad",
+                "due": "05/14/2024",
+                "link": "https://example.com",
+                "done": true
+            },
+            {
+                "id": 13,
+                "title": "Meeting - Ian Cowles",
+                "due": "05/20/2024",
+                "link": "https://example.com",
+                "done": false
+            },
+            {
+                "id": 14,
+                "title": "Meeting - Graham Stephen",
+                "due": "06/01/2024",
+                "link": "https://example.com",
+                "done": false
+            },
+            {
+                "id": 15,
+                "title": "Yearly Review Deadline",
+                "due": "06/15/2024",
+                "link": "https://example.com",
+                "done": false
+            }
+        ]
+    },
+    "team": {
+        "statistics": [
+            3,
+            9
+        ]
+    }
+}

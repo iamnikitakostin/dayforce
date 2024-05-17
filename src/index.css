@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  font-family: "Open Sans", sans-serif;
+
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-red: #F00000;
+  --color-green: #05F000 ;
+  --color-gray: rgba(0,0,0,0.5);
+  --color-lightGray: rgba(0,0,0,0.1);
+  --color-yellow: #FFE70B;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+} 
+
+@keyframes slide-down {
+  from {
+      opacity: 0;
+      transform: translateY(-20%);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-20%);
+  }
+}

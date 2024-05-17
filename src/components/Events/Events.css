@@ -1,0 +1,8 @@
+.events {
+    flex: 1;
+}
+
+.reviewForms__body {
+    max-height: 80%;
+    overflow-y: auto;
+}

@@ -1,0 +1,24 @@
+.myTeam {
+    background-color: #fff;
+    width: 350px;
+}
+
+
+.myTeam__body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    overflow: auto;
+}
+
+.myTeam__body-item {
+    padding: 1rem;
+    border: 1px solid var(--color-lightGray);
+    border-radius: 8px;
+}
+
+.myTeam__body-headline {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,29 @@
+.dashboard {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dashboard > div {
+    max-height: 500px;
+    width: 30%;
+}
+
+@media screen and (min-width: 1150px) {
+    .dashboard > div {
+        max-height: 700px;
+    }
+}
+
+
+
+@media screen and (max-width: 1150px) {
+    .dashboard > div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .dashboard > div {
+        max-width: none;
+    }
+}

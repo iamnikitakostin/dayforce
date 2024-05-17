@@ -1,0 +1,35 @@
+.header__top {
+  width: 100%;
+  padding: 1.5rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  gap: 1rem;
+}
+  
+.header__profile {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+}
+
+.header__profile:hover {
+  cursor: pointer;
+}
+  
+.header__logo {
+  width: 168px;
+}
+  
+.header__logo img {
+  width: 100%;
+}
+
+
+@media screen and (max-width: 590px) {
+  .header__top {
+    padding: 1rem;
+  }
+}

@@ -1,0 +1,14 @@
+.profile-expanded {
+    position: absolute;
+    top: 70%;
+    right: 0;
+    width: 300px;
+    background-color: var(--color-white);
+    animation: slide-down 0.3s ease-in-out;
+    z-index: 1;
+}
+  
+.profile-expanded__controls {
+    display: flex;
+    justify-content: space-between;
+}

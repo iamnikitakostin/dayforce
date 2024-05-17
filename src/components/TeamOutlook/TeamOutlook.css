@@ -1,0 +1,15 @@
+.teamOutlook {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 350px;
+}
+
+.teamOutlook__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+}

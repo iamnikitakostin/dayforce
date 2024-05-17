@@ -1,0 +1,39 @@
+.reviewForms__item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    max-width: 100%;
+}
+
+.reviewForms__item-status {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.reviewForms__item-content {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+}
+
+
+.reviewForms__item-requestor {
+    flex: 1;
+    color: var(--color-gray);
+}
+
+
+@media screen and (max-width: 650px) {
+    .reviewForms__item-requestor {
+        display: none;
+    }
+
+    .reviewForms__item-content {
+        gap: 1rem;
+    }
+}
