@@ -10,9 +10,9 @@ function Reminders() {
             <h1 className='p__highlight'>Reminders</h1>
             <button className='custom__button'>Add</button>
         </div>
-        <div className="reminders__body">
+        <div className="card__body">
             {fetch.profile.reminders.map((item) => (
-                <Reminder item={item} />
+                <Reminder item={item} key={item.id}/>
             ))}
         </div>
     </div>

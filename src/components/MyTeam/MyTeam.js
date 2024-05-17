@@ -9,7 +9,7 @@ function MyTeam() {
       <div className="margin__bottom">
         <h1 className="p__highlight">My Team</h1>
       </div>
-      <div className="myTeam__body">
+      <div className="card__body">
         <div className="myTeam__body-item">
           <p className="myTeam__body-headline p__highlight">Manager</p>
           <div className="myTeam__body-members">

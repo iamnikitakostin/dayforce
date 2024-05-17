@@ -2,7 +2,7 @@
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 2rem 0;
+    margin-bottom: 2rem;
     max-width: 100%;
 }
 
@@ -14,26 +14,13 @@
 }
 
 .reviewForms__item-content {
-    flex: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 4rem;
+    width: 100%
 }
-
 
 .reviewForms__item-requestor {
     flex: 1;
     color: var(--color-gray);
-}
-
-
-@media screen and (max-width: 650px) {
-    .reviewForms__item-requestor {
-        display: none;
-    }
-
-    .reviewForms__item-content {
-        gap: 1rem;
-    }
 }

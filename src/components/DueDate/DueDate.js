@@ -2,7 +2,6 @@ import React from 'react';
 import "./DueDate.css";
 
 function DueDate(props) {
-    console.log(props)
     const currentDate = new Date();
     const dueDateTime = new Date(props.due);
     
@@ -18,7 +17,7 @@ function DueDate(props) {
         dueText = 'Due today';
     }
     return (
-        <div>{dueText}</div>
+        <>{dueText}</>
     )
 }
 

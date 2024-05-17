@@ -9,9 +9,9 @@ function ReviewForms() {
         <div className="margin__bottom">
             <h1 className='p__highlight'>Review Forms</h1>
         </div>
-        <div className="reviewForms__body">
+        <div className="card__body">
             {fetch.profile.forms.map((item) => (
-                <Form item={item} />
+                <Form item={item} key={item.id}/>
             ))}
         </div>
     </div>
