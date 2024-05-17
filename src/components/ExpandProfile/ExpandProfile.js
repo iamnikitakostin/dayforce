@@ -14,7 +14,7 @@ function ExpandProfile() {
       </div>
       <div className="profile-expanded__controls">
         <Button icon="exit"></Button>
-        <Button icon="edit">Edit</Button>
+        <Button icon="edit"></Button>
       </div>
     </div>
   );

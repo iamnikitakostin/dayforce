@@ -12,10 +12,10 @@ function Dashboard({setLoading}) {
     <div className='dashboard' onLoad={() => setLoading(false)}>
         <Profile />
         <ReviewForms />
+        <Events />
         <Reminders />
         <MyTeam />
         <TeamOutlook />
-        <Events />
     </div>
   )
 }
