@@ -71,7 +71,6 @@ nav ul li a.active {
   align-items: center;
   z-index: 2;
   animation: slide-down 0.3s ease-in-out;
-  margin: 0;
 }
 
 
