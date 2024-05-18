@@ -106,12 +106,12 @@
 }
 
 @media screen and (min-width: 2000px) {
-  .custom__button,
   .p__highlight {
     font-size: 37px;
     line-height: 67px;
   }
 
+  .custom__button,
   .p__regular {
     font-size: 30px;
     line-height: 50px;

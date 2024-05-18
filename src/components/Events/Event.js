@@ -27,7 +27,7 @@ function Event(props) {
         style={{ height: isExpanded ? `fit-content` : '0px' }}
       >
         <div ref={contentRef}>
-          <p className="event-due-date p__small">Here are the event details...</p>
+          <p className="p__small">Here are the event details...</p>
         </div>
       </div>
     </div>
