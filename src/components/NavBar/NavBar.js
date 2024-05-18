@@ -73,7 +73,7 @@ function NavBar() {
             <IoMdClose
               fontSize={27}
               className='overlay__close'
-              onClick={() => handleLinkClick()}
+              onClick={() => {handleLinkClick(); document.body.style.overflow = ''}}
             />
             <ul className='navbar-smallscreen_links'>
               <li><a href="/" onClick={() => handleLinkClick("/")}>Dashboard</a></li>
