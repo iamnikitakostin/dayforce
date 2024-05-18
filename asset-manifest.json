@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dayforce/static/css/main.05cc062e.css",
+    "main.css": "/dayforce/static/css/main.a5482dbb.css",
     "main.js": "/dayforce/static/js/main.5281b6b4.js",
     "static/js/453.d47d2414.chunk.js": "/dayforce/static/js/453.d47d2414.chunk.js",
     "static/media/9310.jpeg": "/dayforce/static/media/9310.a1fce632a579c449f039.jpeg",
@@ -9,12 +9,12 @@
     "static/media/5873.jpeg": "/dayforce/static/media/5873.27e25d973a16647dc033.jpeg",
     "static/media/logo.svg": "/dayforce/static/media/logo.28f1b27f5b3712d07e3fea0c149912f4.svg",
     "index.html": "/dayforce/index.html",
-    "main.05cc062e.css.map": "/dayforce/static/css/main.05cc062e.css.map",
+    "main.a5482dbb.css.map": "/dayforce/static/css/main.a5482dbb.css.map",
     "main.5281b6b4.js.map": "/dayforce/static/js/main.5281b6b4.js.map",
     "453.d47d2414.chunk.js.map": "/dayforce/static/js/453.d47d2414.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.05cc062e.css",
+    "static/css/main.a5482dbb.css",
     "static/js/main.5281b6b4.js"
   ]
 }
