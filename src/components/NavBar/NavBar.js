@@ -67,7 +67,7 @@ function NavBar() {
         </li>
       </ul>
       <div className="navbar-smallscreen p__highlight">
-        <GrMenu color='#000' fontSize={27} onClick={() => setToggleMenu(true)} />
+        <GrMenu color='#000' fontSize={27} onClick={() => {setToggleMenu(true); document.body.style.overflow = 'hidden';}} />
         {toggleMenu && (
           <div className={`navbar-smallscreen_overlay ${closingAnimation ? 'closing' : ''}`}>
             <IoMdClose

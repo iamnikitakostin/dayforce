@@ -19,7 +19,7 @@ function Profile () {
         </div>
         <div className="profile__control">
           <Button icon="edit">Edit</Button>
-          <Button icon="arrow">View More</Button>
+          <Button icon="arrow">Details</Button>
 
         </div>
     </div>

@@ -1,6 +1,5 @@
 .p__highlight {
-  font-family: var(--font-base);
-  color: var(--color-gold);
+  color: var(--color-black);
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: capitalize;
@@ -9,7 +8,7 @@
 }
 
 .p__regular {
-  color: var(--color-lightSilver);
+  color: var(--color-black);
   font-weight: 400;
   letter-spacing: 0.04em;
   line-height: 22px;
@@ -50,19 +49,18 @@
 .custom__button {
   background-color: var(--color-white);
   color: var(--color-black);
-  font-weight: 600;
-  letter-spacing: 0.04em;
-  line-height: 28px;
-  font-size: 28px;
-  padding: 0.25rem 1rem;
-  border-radius: 1rem;
-  border: 1px solid var(--color-gray);
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  padding: 0.75rem 1.5rem;
+  font-size: 22px;
+  border-radius: 0.5rem;
+  border: 2px solid var(--color-gray);
   outline: none;
   cursor: pointer;
-  transition: all 0.5s ease-in-out;
-  display: flex;
+  transition: all 0.3s ease-in-out;
+  display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: 8px;
 }
 
 .margin__bottom {
@@ -170,7 +168,7 @@
 }
 
 @media screen and (max-width: 590px) {
-  .p__opensans {
+  .p__highlight {
     font-size: 16px;
     line-height: 22px;
   }

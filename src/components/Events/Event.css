@@ -18,7 +18,8 @@
 }
 
 .event-due-date {
-  color: var(--color-gray)
+  color: var(--color-gray);
+  text-align: right;
 }
 
 .event-arrow {
