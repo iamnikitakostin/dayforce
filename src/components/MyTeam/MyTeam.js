@@ -10,15 +10,15 @@ function MyTeam() {
         <h1 className="p__highlight">My Team</h1>
       </div>
       <div className="card__body">
-        <div className="myTeam__body-item">
-          <p className="p__highlight">Manager</p>
+        <div className="myTeam__body-item margin__bottom">
+          <p className="p__detail">Manager</p>
           <div className="myTeam__body-members">
             <Member profile={fetch.profile.team.manager} />
           </div>
         </div>
         {fetch.profile.team.reports && (
           <div className="myTeam__body-item">
-            <p className="p__highlight">Direct Reports</p>
+            <p className="p__detail">Direct Reports</p>
             <div className="myTeam__body-members">
               {fetch.profile.team.reports.map((item) => (
                 <Member key={item.id} profile={item} />

@@ -4,7 +4,7 @@
   letter-spacing: 0.04em;
   text-transform: capitalize;
   line-height: 29.9px;
-  font-size: 23px;
+  font-size: 25px;
 }
 
 .p__regular {
@@ -168,11 +168,6 @@
 }
 
 @media screen and (max-width: 590px) {
-  .p__highlight {
-    font-size: 16px;
-    line-height: 22px;
-  }
-
   .p__detail, .p__regular {
     font-size: 19px;
   }
