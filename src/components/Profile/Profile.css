@@ -1,7 +1,3 @@
-.profile {
-    width: 350px;
-}
-
 .profile__img {
     margin: auto;
     width: 300px;
@@ -20,11 +16,11 @@
 }
 
 .profile__details-email {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-  color: var(--color-gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    color: var(--color-gray);
 }
 
 .profile__control {
