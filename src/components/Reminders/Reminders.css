@@ -1,3 +1,6 @@
+.reminders {
+    flex: 1;
+}
 .reminders__header {
     display: flex;
     justify-content: space-between;
