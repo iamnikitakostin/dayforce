@@ -1,8 +1,8 @@
 import React from 'react';
 import fetch from "../../constants/profile_example.json";
 import { Doughnut } from 'react-chartjs-2';
-import 'chart.js/auto';
 import "./TeamOutlook.css"
+import { DoughnutController, ArcElement } from 'chart.js/auto';
 
 function TeamOutlook() {
     const [fontSize, setFontSize] = React.useState(16); // Default font size
@@ -17,17 +17,15 @@ function TeamOutlook() {
     };
 
     React.useEffect(() => {
-        // Function to get the computed font size of an element with a specific class
         const getComputedFontSize = (className) => {
             const element = document.querySelector(className);
             if (element) {
                 const computedStyle = getComputedStyle(element);
                 return parseFloat(computedStyle.fontSize);
             }
-            return 16; // Fallback font size
+            return 16
         };
 
-        // Get the font size for p__regular
         const regularFontSize = getComputedFontSize('.p__regular');
         setFontSize(regularFontSize);
     }, []);
