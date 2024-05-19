@@ -32,7 +32,7 @@ function NavBar() {
         <li>
           <a 
             href="/" 
-            className={activeLink === "/" ? "active" : ""}
+            className={activeLink === "/feedback" ? "active" : ""}
             onClick={() => handleLinkClick("/feedback")}
           >
             Feedback
