@@ -16,7 +16,7 @@ function Header() {
     <div className='header'>
       <div className="header__top">
         <div className="header__logo">
-          <img src={logo} alt='logo' />
+          <img src={logo} alt='logo' width={168}/>
         </div>
         <div 
           className="header__profile" 
