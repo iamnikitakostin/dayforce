@@ -31,8 +31,8 @@ function NavBar() {
         </li>
         <li>
           <a 
-            href="/feedback" 
-            className={activeLink === "/feedback" ? "active" : ""}
+            href="/" 
+            className={activeLink === "/" ? "active" : ""}
             onClick={() => handleLinkClick("/feedback")}
           >
             Feedback
@@ -40,7 +40,7 @@ function NavBar() {
         </li>
         <li>
           <a 
-            href="/reviews" 
+            href="/" 
             className={activeLink === "/reviews" ? "active" : ""}
             onClick={() => handleLinkClick("/reviews")}
           >
@@ -49,7 +49,7 @@ function NavBar() {
         </li>
         <li>
           <a 
-            href="/goals" 
+            href="/" 
             className={activeLink === "/goals" ? "active" : ""}
             onClick={() => handleLinkClick("/goals")}
           >
@@ -58,7 +58,7 @@ function NavBar() {
         </li>
         <li>
           <a 
-            href="/documents" 
+            href="/" 
             className={activeLink === "/documents" ? "active" : ""}
             onClick={() => handleLinkClick("/documents")}
           >
@@ -77,10 +77,10 @@ function NavBar() {
             />
             <ul className='navbar-smallscreen_links'>
               <li><a href="/" onClick={() => handleLinkClick("/")}>Dashboard</a></li>
-              <li><a href="/feedback" onClick={() => handleLinkClick("/feedback")}>Feedback</a></li>
-              <li><a href="/reviews" onClick={() => handleLinkClick("/reviews")}>Reviews</a></li>
-              <li><a href="/goals" onClick={() => handleLinkClick("/goals")}>Goals</a></li>
-              <li><a href="/documents" onClick={() => handleLinkClick("/documents")}>Documents</a></li>
+              <li><a href="/" onClick={() => handleLinkClick("/feedback")}>Feedback</a></li>
+              <li><a href="/" onClick={() => handleLinkClick("/reviews")}>Reviews</a></li>
+              <li><a href="/" onClick={() => handleLinkClick("/goals")}>Goals</a></li>
+              <li><a href="/" onClick={() => handleLinkClick("/documents")}>Documents</a></li>
             </ul>
           </div>
         )}
